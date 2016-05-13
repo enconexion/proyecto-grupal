@@ -1,44 +1,3 @@
-
-
-
-.jumbotron {
-	height: 100vh;
-    width: 100%;
-	background: url(../img/header.jpg);
-	background-attachment: fixed;
-	background-position: cover;
-    background-size: cover;
-
-}
-
-.jumbotron h1 {
-	color: #fff;
-	text-transform: uppercase;
-	margin-top: 300px;
-}
-
-.jumbotron p {
-	letter-spacing: 3px;
-	color: #fff;
-}
-
-.btn-default {
-	padding: 17px;
-	margin-top: 20px;
-	border-radius: 0px;
-	text-transform: uppercase;
-
-}
-
-
-
-
-
-
-/*ISMAEL ----TIENDA Y DETALLE DE PRODUCTO*/
-
-
-
 /*ISMAEL -- TIENDA Y DETALLE DE PRODUCTO*/
 .intro-message {
 	position: relative;
@@ -86,22 +45,60 @@
 	text-align: center;
 }
 
-.btn-cta{
-		color:#222;
-		background-color:#f39c12;
-		font-weight:700;
-		border-radius:3px;
-		font-size:18px;
-		padding:20px 40px;
-		transition: all .3s ease;
-		-webkit-transition: all .3s ease;
-	  	-moz-transition: all .3s ease;
-	  	-o-transition: all .3s ease;
-	  	-ms-transition: all .3s ease;
-}
 
-.btn-cta:hover{
-	color:#f39c12;
-	background-color:#222;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
