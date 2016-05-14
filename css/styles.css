@@ -1,5 +1,5 @@
 
-
+/**HomePage**/
 
 .jumbotron {
 	height: 100vh;
@@ -67,4 +67,105 @@
 		font-size: 0.7em;
 	}
 		
+
+.raya-footer{
+    border-width: 4px;
+    max-width: 30%;
+}
+
+.footer-creditos {
+    background-color: gray;
+    padding: 10px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 30px:
+}
+
+
+
+
+
+
+/*ISMAEL ----TIENDA Y DETALLE DE PRODUCTO*/
+
+.slider{
+	width: 186px;
+	height: 10rem;
+	background: gray;
+	padding: 1rem;
+	margin-right: 10px;
+}
+
+
+
+.intro-message {
+	position: relative;
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+	margin: 0;
+	font-size: 5em;
+	text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.7);
+}
+
+.intro-divider {
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.intro-message > h3 {
+	text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 767px) {
+	.intro-message {
+		padding-bottom: 15%;
+	}
+
+	.intro-message > h1 {
+		font-size: 3em;
+	}
+	.intro-divider {
+		width: 100%;
+	}
+}
+
+
+.intro-header {
+	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+	padding-bottom: 50px;
+	color: #f8f8f8;
+	background: url(../img/) no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+}
+
+.btn-cta{
+		color:#222;
+		background-color:#f39c12;
+		font-weight:700;
+		border-radius:3px;
+		font-size:18px;
+		padding:20px 40px;
+		transition: all .3s ease;
+		-webkit-transition: all .3s ease;
+	  	-moz-transition: all .3s ease;
+	  	-o-transition: all .3s ease;
+	  	-ms-transition: all .3s ease;
+}
+
+.btn-cta:hover{
+	color:#f39c12;
+	background-color:#222;
+}
+
+.section-heading-spacer {
+	border-top: 3px solid #e7e7e7;
+	width: 100px;
+	right: 450px;
+>>>>>>> 88daa0e75b87a532bcc225e17841f872be1c94f4
 }
