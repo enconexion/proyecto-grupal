@@ -37,9 +37,16 @@
 
 /*ISMAEL ----TIENDA Y DETALLE DE PRODUCTO*/
 
+.slider{
+	width: 186px;
+	height: 10rem;
+	background: gray;
+	padding: 1rem;
+	margin-right: 10px;
+}
 
 
-/*ISMAEL -- TIENDA Y DETALLE DE PRODUCTO*/
+
 .intro-message {
 	position: relative;
 	padding-top: 20%;
@@ -105,3 +112,8 @@
 	background-color:#222;
 }
 
+.section-heading-spacer {
+	border-top: 3px solid #e7e7e7;
+	width: 100px;
+	right: 450px;
+}
