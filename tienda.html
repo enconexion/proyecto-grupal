@@ -2,93 +2,104 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 	<title>EnCONEX Tienda</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/owl.carousel.css">
-	<link rel="stylesheet" href="css/styles.css">
-	<script src="https://use.fontawesome.com/3d63b6a2ea.js"></script>
+	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 	<header>
-		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-		        <div class="container-fluid">
-		            <!-- Brand and toggle get grouped for better mobile display -->
-		            <div class="navbar-header">
-		                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-		                    <span class="sr-only">Toggle navigation</span>
-		                    <span class="icon-bar"></span>
-		                    <span class="icon-bar"></span>
-		                    <span class="icon-bar"></span>
-		                </button>
-		                <a class="navbar-brand" href="#">EnCONEX</a>
-		            </div>
-		            <!-- Collect the nav links, forms, and other content for toggling -->
-		            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		                <ul class="nav navbar-nav navbar-right">
-		                	<li>
-		                        <a href="#">Home</a>
-		                    </li>
-		                    <li>
-		                        <a href="#">About</a>
-		                    </li>
-		                    <li>
-		                        <a href="#">Services</a>
-		                    </li>
-		                  	<li>
-		                        <a href="#">Blog</a>
-		                    </li>
-		                    <li>
-		                        <a href="#">Contact</a>
-		                    </li>
-		                    <li>
-		                        <a href="#" ><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
-		                    </li>
-		                </ul>
-		            </div>
-		            <!-- /.navbar-collapse -->
+		<nav class="navbar navbar-inverse navbar-fixed-top barra" role="navigation">
+		    <div class="container-fluid">
+		        <!-- Brand and toggle get grouped for better mobile display -->
+		        <div class="navbar-header">
+		            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		                <span class="sr-only">Toggle navigation</span>
+		                <span class="icon-bar"></span>
+		                <span class="icon-bar"></span>
+		                <span class="icon-bar"></span>
+		            </button>
+		            <a class="navbar-brand" href="#">EnCONEX</a>
+				</div>
+		        <!-- Collect the nav links, forms, and other content for toggling -->
+		        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		            <ul class="nav navbar-nav navbar-right">
+		              	<li>
+		                    <a href="#">Home</a>
+		                </li>
+		                <li>
+		                    <a href="#">About</a>
+		                </li>
+		                <li>
+		                    <a href="#">Services</a>
+		                </li>
+		                <li>
+		                    <a href="#">Blog</a>
+		                </li>
+		                <li>
+		                    <a href="#">Contact</a>
+		                </li>
+		                <li>
+		                    <a href="#" ><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+		                </li>
+		            </ul>
 		        </div>
+		            <!-- /.navbar-collapse -->
+		    </div>
 		        <!-- /.container -->
-		    </nav>
+		</nav>
 	</header>
 
-	<section class="container">
-		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-		  <!-- Indicators -->
-			  <ol class="carousel-indicators">
-			    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-			    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-			    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-			  </ol>
+	<section class="carrusel">
 
-			  <!-- Wrapper for slides -->
-			  <div class="carousel-inner" role="listbox">
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner" role="listbox">
 			    <div class="item active">
-			      <img src="..." alt="...">
-			      <div class="carousel-caption">
-			        ...
-			      </div>
+			    	<img src="http://placehold.it/1920x700" alt="...">
+			    	<div class="carousel-caption">
+			    		<h1>Tienda</h1>
+			    		<p>Lorem ipsum dolor.</p>
+			    	</div>
 			    </div>
 			    <div class="item">
-			      <img src="..." alt="...">
-			      <div class="carousel-caption">
-			        ...
-			      </div>
+			    	<img src="http://placehold.it/1920x700" alt="...">
+			    	<div class="carousel-caption">
+			    		<h1>Tienda</h1>
+			    		<p>Lorem ipsum dolor.</p>
+			    	</div>
 			    </div>
-			    ...
-			  </div>
+			</div>
 
-			  <!-- Controls -->
-			  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-			    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+
+			<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 			    <span class="sr-only">Previous</span>
-			  </a>
-			  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			</a>
+			<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
 			    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 			    <span class="sr-only">Next</span>
-			  </a>
+			 </a>
 		</div>
+
 	</section>
+
+		<div class="container form">
+			<form class="form-inline form">
+				<div class="form-group">
+					<label for="exampleInputName2">Name</label>
+					<input type="text" class=" form-control" id="exampleInputName2" placeholder="Jane Doe">
+				</div>
+				<div class="form-group">
+					<label for="exampleInputEmail2">Email</label>
+					<input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+				</div>
+				<button type="submit" class="btn btn-default">Send invitation</button>
+			</form> 			
+		</div>
 
 	<section class="container">
 		<div class="row">
@@ -194,14 +205,70 @@
 				    </div>
 				</div>
 			</article>
+			<nav>
+			  <ul class="pagination">
+			    <li>
+			      <a href="#" aria-label="Previous">
+			        <span aria-hidden="true">&laquo;</span>
+			      </a>
+			    </li>
+			    <li><a href="#">1</a></li>
+			    <li><a href="#">2</a></li>
+			    <li><a href="#">3</a></li>
+			    <li><a href="#">4</a></li>
+			    <li><a href="#">5</a></li>
+			    <li>
+			      <a href="#" aria-label="Next">
+			        <span aria-hidden="true">&raquo;</span>
+			      </a>
+			    </li>
+			  </ul>
+			</nav>
 		</div>	
 	</section>
+
+
+
+	<section class="container">
+		<div class="row">
+			<article class="col-sm-7">
+				<h1>Waste no more time</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur.</p>
+			</article>
+			<article class="col-sm-5">
+				<button class="btn btn-default">Compra Ya!</button>
+			</article>			
+		</div>
+	</section>
+
+
+
+	<footer style="margin-top: 50px;">
+		<div class="container-fluid">
+		    <article class="col-lg-12">
+		        <img src="http://www.placehold.it/200x200" class="img-responsive center-block img-circle" alt="">
+		    </article>
+		    <article class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center">
+		        <h4>Sobre EnCONEX</h4>
+		        <hr class="raya-footer">
+		        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, laboriosam!</p>
+		    </article>
+		    <article class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center">
+		        <h4>Contacto rápido</h4>
+		        <hr class="raya-footer">
+		        <p class="text-muted">info@enconex.com</p>
+		    </article>
+		    </div>
+		    <div class="footer-creditos">
+		        <h6>Desarrollado por Team EnCONEX!</h6> 
+		</div>
+	</footer>
+
 
 
 		
 
 <script src="js/jquery-2.2.3.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
 </body>
