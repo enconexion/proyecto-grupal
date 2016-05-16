@@ -1,48 +1,74 @@
-/*ISMAEL -- TIENDA Y DETALLE DE PRODUCTO*/
-.intro-message {
-	position: relative;
-	padding-top: 20%;
-	padding-bottom: 20%;
+
+body, html {
+	height: 100%;
+	width: 100%;
 }
 
-.intro-message > h1 {
-	margin: 0;
-	font-size: 5em;
-	text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.7);
-}
-
-.intro-divider {
-	width: 400px;
-	border-top: 1px solid #f8f8f8;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-}
-
-.intro-message > h3 {
-	text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.7);
-}
-
-@media (max-width: 767px) {
-	.intro-message {
-		padding-bottom: 15%;
-	}
-
-	.intro-message > h1 {
-		font-size: 3em;
-	}
-	.intro-divider {
-		width: 100%;
-	}
+body, h1, h2, h3, h4, h5, h6 {
+	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 
-.intro-header {
-	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-	padding-bottom: 50px;
-	color: #f8f8f8;
-	background: url(../img/) no-repeat center center;
-	background-size: cover;
+
+
+/**HomePage**/
+
+.jumbotron {
+	height: 100vh;
+    width: 100%;
+	background: url(../img/header.jpg);
 	background-attachment: fixed;
-	text-align: center;
+	background-position: cover;
+    background-size: cover;
+
+}
+
+.jumbotron h1 {
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 300px;
+}
+
+.jumbotron p {
+	letter-spacing: 3px;
+	color: #fff;
+}
+
+.btn-default {
+	padding: 17px;
+	margin-top: 20px;
+	border-radius: 0px;
+	text-transform: uppercase;
+
+}
+
+/*CSS de Blog*/
+
+.margin-blog {
+	margin-top: 70px;
+}
+
+.divisory-line {
+	border-right: solid 4px #a0aeaf;
+	padding-right: 20px;
+}
+
+.article-spacing {
+	margin-bottom: 20px;
+}
+
+
+.raya-footer{
+    border-width: 4px;
+    max-width: 30%;
+}
+
+.footer-creditos {
+    background-color: gray;
+    padding: 10px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 30px:
 }
 
 
@@ -50,55 +76,61 @@
 
 
 
+/*ISMAEL ----TIENDA Y DETALLE DE PRODUCTO*/
+
+.barra {
+	padding: 18px;
+	background-color: rgba(0,0,0,0.5);
+	border: none;
+	height: 80px;
+	font-size: 18px;	
+}
+
+
+.carrusel {
+	margin-top: 50px;
+}
+
+
+
+.algo {
+	font-size: 90px;
+}
+
+
+.section-heading-spacer {
+	border-top: 40px solid #e7e7e7;
+	width: 30px;
+}
 
 
 
 
 
+/*MEDIAquerys*/
 
 
+/*blog*/
+@media(max-width: 767px) {
+	/*media blog*/
+	.divisory-line {
+		border: none;
+	}
 
+	.img-space {
+		margin-top: 20px;
+	}
+}
 
+@media(min-width: 768px) and (max-width: 992px) {
+	/*media blog*/
+	.divisory-line {
+		border-right: solid 2px #a0aeaf;
+		padding-right: 20px;
+	}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	.p-texto{
+		font-size: 0.7em;
+	}
+		
 
