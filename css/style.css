@@ -11,7 +11,7 @@ body, h1, h2, h3, h4, h5, h6 {
 
 
 
-/**HomePage**/
+/**Manuel Díaz HomePage**/
 
 .jumbotron {
 	height: 100vh;
@@ -41,6 +41,14 @@ body, h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
 
 }
+
+.owl-carousel .owl-item img {
+    width: 50%;
+}
+
+
+
+
 
 /*CSS de Blog*/
 
