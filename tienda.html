@@ -14,7 +14,7 @@
 
 <body>
 	<header>
-		<nav class="navbar navbar-inverse navbar-fixed-top barra" role="navigation">
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 		    <div class="container-fluid">
 		        <!-- Brand and toggle get grouped for better mobile display -->
 		        <div class="navbar-header">
@@ -74,7 +74,7 @@
 			    	</div>
 			    </div>
 			</div>
-
+ 
 
 			<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
 				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -86,12 +86,17 @@
 			 </a>
 		</div>
 			<div class="form-shop">
-			<form class="form-inline form">
-				<div class="form-group">
+			<form class="form-inline">
+				<div class="form-group form">
 					<label for="exampleInputName2" class="algo">Name</label>
-					<input type="text" class=" form-control form-field" id="exampleInputName2" placeholder="Jane Doe">
+					<select class="form-control form-control-shop">
+						<option>Fecha</option>
+						<option>Precio</option>
+						<option>Marca</option>
+						<option>Modelo</option>
+					</select>
 				</div>
-				<div class="form-group">
+				<div class="form-group form">
 					<label for="exampleInputEmail2" class="algo">Email</label>
 					<input type="email" class="form-control form-field" id="exampleInputEmail2" placeholder="jane.doe@example.com">
 				</div>
@@ -370,6 +375,7 @@
 
 <script src="js/jquery-2.2.3.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/smoothscrolling.jquery.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
