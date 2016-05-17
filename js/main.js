@@ -38,7 +38,7 @@ $('body').scrollspy({
 })
 
 
-
+// Boton para que envie a TOP, plugin escuelaweb
 
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
@@ -52,21 +52,70 @@ $(function() {
 
 
 
-$('.owl-carousel').owlCarousel({
+
+// OWL //
+
+    $(document).ready(function() {
+    $('.owl-carousel').owlCarousel({
     loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
-        },
+    margin:40,
+    items:2,
+    responsive:false,
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
+    smartSpeed:700,
+    responsiveClass:true,
+    responsive: {
+    // breakpoint from 480 up
+    480 : {
+        items : 1,
+        
+    },
+    // breakpoint from 768px up
+    768 : {
+        items : 2,
+    },
+    // breakpoint from 992px up
+    992 : {
+        items : 3
     }
-});
+}
+   
+})
+    });
 
 
+
+// OWL clientes //
+
+
+    $(document).ready(function() {
+    $('.clients').owlCarousel({
+    loop:true,
+    margin:40,
+    items:2,
+    responsive:false,
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
+    smartSpeed:700,
+    responsiveClass:true,
+    responsive: {
+    // breakpoint from 480 up
+    480 : {
+        items : 2,
+        
+    },
+    // breakpoint from 768px up
+    768 : {
+        items : 3,
+    },
+    // breakpoint from 992px up
+    992 : {
+        items : 5
+    }
+}
+   
+})
+    });
