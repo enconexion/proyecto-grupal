@@ -1,5 +1,4 @@
-
-  $(window).scroll(function() {
+$(window).scroll(function() {
     if($(this).scrollTop() > 350)  /*height in pixels when the navbar becomes non opaque*/ 
     {
         $('.navbar').removeClass('barra');
@@ -32,10 +31,7 @@ $(document).on('ready', function(){
     })
 });
 
-// Highlight the top nav as scrolling occurs
-$('body').scrollspy({
-    target: '.navbar-fixed-top'
-})
+
 
 
 // Boton para que envie a TOP, plugin escuelaweb
@@ -84,7 +80,6 @@ $(function() {
    
 })
     });
-
 
 
 // OWL clientes //

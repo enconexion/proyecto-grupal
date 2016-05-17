@@ -109,6 +109,9 @@ body, h1, h2, h3, h4, h5, h6 {
 
 .carrusel{
 	position: relative;
+}
+
+.img-carrusel{
 	width: 100%;
 }
 
@@ -135,9 +138,8 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 
-.form-control-shop{
+.form-shop .form-inline .form-control-shop{
 	width: 100%;
-
 }
 
 
