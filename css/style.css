@@ -34,7 +34,7 @@ body, h1, h2, h3, h4, h5, h6 {
 	color: #fff;
 }
 
-.btn-default {
+.btn-cta {
 	padding: 17px;
 	margin-top: 20px;
 	border-radius: 0px;
@@ -78,6 +78,12 @@ body, h1, h2, h3, h4, h5, h6 {
 
 /*ISMAEL ----TIENDA Y DETALLE DE PRODUCTO*/
 
+
+.carrusel{
+	position: relative;
+	width: 100%;
+}
+
 .barra {
 	padding: 18px;
 	background-color: rgba(0,0,0,0.5);
@@ -86,23 +92,58 @@ body, h1, h2, h3, h4, h5, h6 {
 	font-size: 18px;	
 }
 
-
-.carrusel {
-	margin-top: 50px;
+.form-shop{
+		background-color: rgba(255,255,255,0.5);
+		text-align: center;
+		padding: 20px;
+		top: 465px;
+		position: absolute;
+		width: 100%;
 }
 
-
+.form-field{
+	padding: 10px;
+	font-size: 18px;
+}
 
 .algo {
-	font-size: 90px;
+	font-size: 18px;
 }
 
 
 .section-heading-spacer {
-	border-top: 40px solid #e7e7e7;
+	border-top: 4px solid #e7e7e7;
 	width: 30px;
+	float: left;
 }
 
+.btn-form-shop{
+	border-radius: 0px;
+	text-transform: uppercase;
+}
+
+.banner-shop{
+	padding: 30px;
+	background-color: rgba(0,0,0,0.25);
+}
+
+
+.p-descripcion{
+	font-size: 12px;
+	color: rgba(127, 140, 141,.9);
+}
+
+.precio{
+	font-size: 20px;
+}
+
+.caption-products{
+	float: left;
+}
+
+.icon-cap-shops{
+	float: right;
+}
 
 
 
