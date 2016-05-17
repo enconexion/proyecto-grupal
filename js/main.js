@@ -1,5 +1,4 @@
-
-  $(window).scroll(function() {
+$(window).scroll(function() {
     if($(this).scrollTop() > 350)  /*height in pixels when the navbar becomes non opaque*/ 
     {
         $('.navbar').removeClass('barra');
@@ -32,10 +31,7 @@ $(document).on('ready', function(){
     })
 });
 
-// Highlight the top nav as scrolling occurs
-$('body').scrollspy({
-    target: '.navbar-fixed-top'
-})
+
 
 
 
@@ -52,21 +48,6 @@ $(function() {
 
 
 
-$('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
-        },
-    }
-});
+
 
 

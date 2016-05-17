@@ -60,7 +60,7 @@
 		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 			<div class="carousel-inner" role="listbox">
 			    <div class="item active">
-			    	<img src="http://placehold.it/1920x700" alt="...">
+			    	<img class="img-carrusel" src="http://placehold.it/1920x700" alt="...">
 			    	<div class="carousel-caption">
 <!-- 			    		<h1>Tienda</h1>
 			    		<p>Lorem ipsum dolor.</p> -->
@@ -88,7 +88,7 @@
 			<div class="form-shop">
 			<form class="form-inline">
 				<div class="form-group form">
-					<label for="exampleInputName2" class="algo">Name</label>
+					<label for="exampleInputName2" class="algo">Filtrar por</label>
 					<select class="form-control form-control-shop">
 						<option>Fecha</option>
 						<option>Precio</option>
@@ -97,8 +97,28 @@
 					</select>
 				</div>
 				<div class="form-group form">
-					<label for="exampleInputEmail2" class="algo">Email</label>
-					<input type="email" class="form-control form-field" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+					<label for="exampleInputEmail2" class="algo">Categoría</label>
+					<select class="form-control form-control-shop">
+						<option>Smartphones</option>
+						<option>Tablets</option>
+						<option>Televisores</option>
+						<option>Headsets</option>
+						<option>Laptops y Pc's</option>
+					</select>
+				</div>
+				<div class="form-group form">
+					<label for="exampleInputEmail2" class="algo">Categoría</label>
+					<div class="container">
+						<div class="row">
+							<article class="col-sm-2">
+								<input type="text" class="form-control" placeholder="$">
+							</article>
+							<article class="col-sm-2">
+								<input type="text" class="form-control" placeholder="$">
+							</article>
+						</div>
+					</div>
+					
 				</div>
 				<button type="submit" class="btn btn-default btn-form-shop">Submit</button>
 			</form> 			
