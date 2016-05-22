@@ -113,11 +113,13 @@ body, h1, h2, h3, h4, h5, h6 {
 
 .img-carrusel{
 	width: 100%;
+	
 }
 
 .form-shop label{
 	display: block;
 	text-align: left;
+	font-size: 18px;
 }
 
 .form-shop{
@@ -132,29 +134,36 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 .form {
-	font-size: 18px;
-	width: 18%;
+	width: 14%;
 	margin-right: 2%;
 }
 
 
 .form-shop .form-inline .form-control-shop{
 	width: 100%;
+	border-radius: 0px;
+	height: 40px;
+	font-size: 16px;
 }
 
-
+.form-shop .btn{
+	width: 100%;
+	margin-top: 31px;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: 600;
+	height: 40px;
+	font-size: 18px;
+}
 
 
 .section-heading-spacer {
 	border-top: 4px solid #e7e7e7;
-	width: 30px;
-	float: left;
+	width: 500px;
+	margin-bottom: 20px;
+
 }
 
-.btn-form-shop{
-	border-radius: 0px;
-	text-transform: uppercase;
-}
 
 .banner-shop{
 	padding: 30px;
@@ -194,9 +203,178 @@ body, h1, h2, h3, h4, h5, h6 {
 	float: right;
 }
 
+.sprite{
+	margin-top: 64px;
+	width: 80px;
+	height: 48px;
+	display: block;
+	background-image: url(../img/sprite-metodosdepago.png);
+}
+
+.sprite.visa{background-position: -80px -0px;}
+.sprite.master{background-position: -160px -0px;}
+.sprite.american{background-position: -320px -0px;}
+.sprite.paypal{background-position: -0px -0px;}
+
+.input-banner{
+	width: 50%;
+	border-radius: 0px;
+}
+.btn-form-shop{
+	margin-top: 10px;
+	border-radius: 0px;
+}
+
+
+.button {
+	min-width: 150px;
+	max-width: 250px;
+	color: #333;
+	font-size: 19px;
+	font-weight: 700;
+	margin: 1em;
+	padding: 1em 2em;
+	border: none;
+	background: none;
+	vertical-align: middle;
+	position: relative;
+	z-index: 1;
+	-webkit-backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+}
+.button:focus {
+	outline: none;
+}
+
+
+.button--itzel {
+	border: none;
+	padding: 0px;
+	overflow: hidden;
+	width: 255px;
+}
+.button--itzel::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 2px solid;
+	border-radius: inherit;
+	-webkit-clip-path: polygon(0% 0%, 0% 100%, 35% 100%, 35% 60%, 65% 60%, 65% 100%, 100% 100%, 100% 0%);
+	clip-path: url(../index.html#clipBox);
+	-webkit-transform: translate3d(0, 100%, 0) translate3d(0, -2px, 0);
+	transform: translate3d(0, 100%, 0) translate3d(0, -2px, 0);
+	-webkit-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+}
+
+
+.button--itzel.button--border-thick::before {
+	border: 3px solid;
+	-webkit-transform: translate3d(0, 100%, 0) translate3d(0, -3px, 0);
+	transform: translate3d(0, 100%, 0) translate3d(0, -3px, 0);
+}
+
+.button--itzel::before,
+.button--itzel .button__icon {
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+	-webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+	transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+}
+.button--itzel .button__icon {
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	padding: 20px;
+	font-size: 20px;
+	-webkit-transform: translate3d(-50%, 0, 0);
+	transform: translate3d(-50%, 0, 0);
+}
+.button--itzel > span {
+	display: block;
+	padding: 20px;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+	-webkit-transition-delay: 0.3s;
+	transition-delay: 0.3s;
+}
+.button--itzel:hover::before {
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+.button--itzel:hover .button__icon {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+	-webkit-transform: translate3d(-50%, -100%, 0);
+	transform: translate3d(-50%, -100%, 0);
+}
+.button--itzel:hover > span {
+	opacity: 0;
+	-webkit-transform: translate3d(0, -50%, 0);
+	transform: translate3d(0, -50%, 0);
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*MEDIAquerys*/
+
+/*Tienda*/
+
+@media (max-width: 768px) {
+	.section-heading-spacer{
+		width: 300px;
+	}
+
+	.form-shop{
+		background-color: #e7e7e7;
+		bottom: 0px;
+		padding: 20px;
+		margin-bottom: 0;
+		position: relative;
+	}
+
+	.form {
+		width: 100%;
+		margin-right: 0;
+	}
+
+
+	.form-shop .form-inline .form-control-shop{
+		width: 100%;
+	}
+
+	.form-shop .btn{
+		width: 50%;
+		margin-top: 15px;
+	}
+
+	.sprite{
+		margin: 0 0 15px 16px;
+		
+	}
+
+
+}
+
+
+
+
 
 
 /*blog*/
