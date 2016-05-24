@@ -204,7 +204,7 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 .sprite{
-	margin-top: 64px;
+	margin-top: 70px;
 	width: 80px;
 	height: 48px;
 	display: block;
@@ -336,7 +336,7 @@ body, h1, h2, h3, h4, h5, h6 {
 
 /*Tienda*/
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	.section-heading-spacer{
 		width: 300px;
 	}
@@ -365,7 +365,7 @@ body, h1, h2, h3, h4, h5, h6 {
 	}
 
 	.sprite{
-		margin: 0 0 15px 16px;
+		display: none;
 		
 	}
 
