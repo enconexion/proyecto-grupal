@@ -1,9 +1,9 @@
 $(window).scroll(function() {
-    if($(this).scrollTop() > 350)  /*height in pixels when the navbar becomes non opaque*/ 
+    if($(this).scrollTop() < 350)  /*height in pixels when the navbar becomes non opaque*/ 
     {
-        $('.navbar').removeClass('barra');
-    } else {
         $('.navbar').addClass('barra');
+    } else {
+        $('.navbar').removeClass('barra');
     }
 });
 
