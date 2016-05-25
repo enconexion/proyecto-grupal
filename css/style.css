@@ -8,6 +8,22 @@ body, h1, h2, h3, h4, h5, h6 {
 	font-family: 'Lato', sans-serif;
 }
 
+/*TITULOS H1 (si quieren que tenga este tamaño y estilo, aplíquenselo a su HTML, luego deben hacer sus ajustes en el media-query)*/
+
+.titulos {
+	font-weight: 300;
+	font-size: 4em;
+
+}
+
+
+/*PALETA DE COLORES*/
+
+/*Naranja intenso #FF5722*/
+/*Naranja pastel #FF7043;*/
+/*Turquesa #00BCD4;*/
+/*Negro 90% #212121;*/
+
 
 
 
@@ -30,6 +46,11 @@ body, h1, h2, h3, h4, h5, h6 {
 	height: 80px;
 	font-size: 18px;
 }
+
+
+
+
+
 
 /**Manuel Díaz HomePage**/
 
@@ -68,6 +89,25 @@ body, h1, h2, h3, h4, h5, h6 {
 
 
 
+/*Manuel Diaz Servicios*/
+
+.enconex-serv {
+	background: url(../img/servicio-header.jpg);
+	max-height: 650px;
+	width: 100%;
+	min-width: 100%;
+	background-position: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+}
+
+
+.header-servicios {
+	color: #fff;
+	letter-spacing: 4px;
+	padding: 300px;
+}
 
 
 /*CSS de Blog*/
