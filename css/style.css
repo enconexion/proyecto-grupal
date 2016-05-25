@@ -31,7 +31,8 @@ body, h1, h2, h3, h4, h5, h6 {
 	padding: 18px;
 	height: 80px;
 	font-size: 18px;
-	border-bottom: 4px solid #fff59d;
+	background-color: #212121;
+	border-bottom: 4px solid #FF5722;
 	transition: all .7s ease;
 	-webkit-transition: all .7s ease;
   	-moz-transition: all .7s ease;
@@ -42,7 +43,7 @@ body, h1, h2, h3, h4, h5, h6 {
 .barra {
 	padding: 18px;
 	background-color: rgba(0,0,0,0.5);
-	border-bottom: 4px solid #ee6e73;
+	border-bottom: 4px solid #FF7043;
 	height: 80px;
 	font-size: 18px;
 }
@@ -377,8 +378,16 @@ body, h1, h2, h3, h4, h5, h6 {
 /*Tienda*/
 
 @media (max-width: 767px) {
+
+	.carrusel{
+		margin-top: 80px;
+	}
 	.section-heading-spacer{
 		width: 300px;
+	}
+
+	.form-shop label{
+		font-size: 16px;
 	}
 
 	.form-shop{
@@ -397,11 +406,13 @@ body, h1, h2, h3, h4, h5, h6 {
 
 	.form-shop .form-inline .form-control-shop{
 		width: 100%;
+		font-size: 14px;
 	}
 
 	.form-shop .btn{
 		width: 50%;
 		margin-top: 15px;
+		font-size: 14px;
 	}
 
 	.sprite{
