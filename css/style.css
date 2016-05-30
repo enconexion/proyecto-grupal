@@ -1,17 +1,16 @@
 
-body html {
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900,300);
+body {
 	height: 100%;
 	width: 100%;
-}
-
-body, h1, h2, h3, h4, h5, h6 {
 	font-family: 'Lato', sans-serif;
 }
+
 
 /*TITULOS H1 (si quieren que tenga este tamaño y estilo, aplíquenselo a su HTML, luego deben hacer sus ajustes en el media-query)*/
 
 .titulos {
-	font-weight: 300;
+	font-weight: 900;
 	font-size: 4em;
 
 }
@@ -48,20 +47,26 @@ body, h1, h2, h3, h4, h5, h6 {
 	font-size: 18px;
 }
 
+.navbar-brand>img {
+	max-height: 25px;
+	margin-top: -4px;
+}
 
 
 
 
 
-/**Manuel Díaz HomePage**/
+
+/**-------------------Manuel Díaz HomePage-----------------------------**/
 
 .jumbotron {
 	height: 100vh;
     width: 100%;
-	background: url(../img/header.jpg);
+	background: url(../img/header-bg.jpg);
 	background-attachment: fixed;
 	background-position: cover;
     background-size: cover;
+    margin-bottom: 0px;
 
 }
 
@@ -76,24 +81,193 @@ body, h1, h2, h3, h4, h5, h6 {
 	color: #fff;
 }
 
-.btn-cta {
+.btn-home-manuel {
+	background-color: whitesmoke;
 	padding: 17px;
 	margin-top: 20px;
 	border-radius: 0px;
 	text-transform: uppercase;
+	color: #212121;
+	transition: 0.2s linear;
+	-webkit-transition: 0.2s linear;
+	-moz-transition: 0.2s linear;
+	-o-transition: 0.2s linear;
 
 }
 
-.owl-carousel .owl-item img {
-    width: 50%;
+.btn-home-manuel:hover {
+	background-color: #FF5722;
+	color: whitesmoke;
+	transition: 0.2s linear;
+	-webkit-transition: 0.2s linear;
+	-moz-transition: 0.2s linear;
+	-o-transition: 0.2s linear;
+
+}
+
+.about-bg {
+	width: 100%;
+	background-color: whitesmoke;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+hr.final-about {
+	border: 1px solid #00BCD4;
+	margin-top: 0px;
+}
+
+.colortext>span {
+	color: #FF5722
+}
+
+hr.welcome {
+	border: 2px solid #FF5722;
+	width: 80px;
+	float: left;
+	margin-top: -1px;
+}
+
+.interlineado {
+	line-height: 2em;
+	float: left;
+}
+
+.padding-welcome {
+	margin-top: 40px;
+
+}
+
+.turquesa {
+	color: #00BCD4;
+	font-weight: 900;
+	letter-spacing: 2px;
+}
+
+.pd-top {
+	padding-top: 40px;
+}
+
+.pd-bt {
+	margin-bottom: 80px;
+}
+
+.bg-why {
+	width: 100%;
+	background-color: #212121;
+	margin-top: 80px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.orantext {
+	color: #FF5722;
+	font-weight: 900;
+}
+
+.ft-bg {
+	background-color: #FF7043;
+	padding: 80px;
+}
+
+.pd-elmts {
+	padding: 20px;
+}
+
+.img-footer {
+	max-height: 80px;
+	margin-bottom: 40px;
+	opacity: .5;
+	transition: 0.4s linear;
+	-webkit-transition: 0.4s linear;
+	-moz-transition: 0.4s linear;
+	-o-transition: 0.4s linear;
+}
+
+.img-footer:hover {
+	opacity: 1;
+	transition: 0.4s linear;
+	-webkit-transition: 0.4s linear;
+	-moz-transition: 0.4s linear;
+	-o-transition: 0.4s linear;
+}
+
+.iconos-rrss {
+	font-size: 1.5em;
+	letter-spacing: 3px;
+}
+
+i.fa-facebook {
+	color: #414141;
+	transition: 0.4s linear;
+	-webkit-transition: 0.4s linear;
+	-moz-transition: 0.4s linear;
+	-o-transition: 0.4s linear;
+}
+
+i.fa-facebook:hover {
+	color: #000;
+	transition: 0.4s linear;
+	-webkit-transition: 0.4s linear;
+	-moz-transition: 0.4s linear;
+	-o-transition: 0.4s linear;
+}
+
+i.fa-google-plus {
+	color: #414141;
+	transition: 0.4s linear;
+	-webkit-transition: 0.4s linear;
+	-moz-transition: 0.4s linear;
+	-o-transition: 0.4s linear;
+}
+
+i.fa-google-plus:hover {
+	color: #000;
+	transition: 0.4s linear;
+	-webkit-transition: 0.4s linear;
+	-moz-transition: 0.4s linear;
+	-o-transition: 0.4s linear;
+}
+
+i.fa-twitter{
+	color: #414141;
+	transition: 0.4s linear;
+	-webkit-transition: 0.4s linear;
+	-moz-transition: 0.4s linear;
+	-o-transition: 0.4s linear;
+}
+
+i.fa-twitter:hover {
+	color: #000;
+	transition: 0.4s linear;
+	-webkit-transition: 0.4s linear;
+	-moz-transition: 0.4s linear;
+	-o-transition: 0.4s linear;
+}
+
+
+.footer-creditos {
+    background-color: #212121;
+    padding: 10px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 30px:
+}
+
+.copyright {
+	color: #818181;
+	font-weight: 900;
+	font-size: 0.8em;
 }
 
 
 
-/*Manuel Diaz Servicios*/
+/**-------------------Manuel Díaz Servicios-----------------------------**/
 
 .enconex-serv {
-	background: url(../img/servicio-header.jpg);
+	background: url(../img/servicios-header.jpg);
 	max-height: 650px;
 	width: 100%;
 	min-width: 100%;
@@ -108,7 +282,19 @@ body, h1, h2, h3, h4, h5, h6 {
 	color: #fff;
 	letter-spacing: 4px;
 	padding: 300px;
+	font-weight: 900;
 }
+
+.panel-default>.panel-heading {
+	background-color: #212121;
+	border-color: none;
+	color: whitesmoke;
+}
+
+
+
+
+
 
 
 /*CSS de Blog*/
@@ -130,14 +316,6 @@ body, h1, h2, h3, h4, h5, h6 {
 .raya-footer{
     border-width: 4px;
     max-width: 30%;
-}
-
-.footer-creditos {
-    background-color: gray;
-    padding: 10px;
-    letter-spacing: 5px;
-    text-align: center;
-    margin-top: 30px:
 }
 
 
@@ -424,6 +602,7 @@ body, h1, h2, h3, h4, h5, h6 {
 
 
 }
+
 
 
 
