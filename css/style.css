@@ -52,8 +52,17 @@ body {
 	margin-top: -4px;
 }
 
+.navbar-inverse .navbar-nav>li>a:hover{
+	color: #00BCD4;
+}
 
+.navbar-inverse .navbar-nav>li>a.shopping-cart{
+	color: #FF5722;
+}
 
+.navbar-inverse .navbar-nav>li>a.shopping-cart:hover{
+	color: #00BCD4;
+}
 
 
 
@@ -323,7 +332,7 @@ i.fa-twitter:hover {
 
 
 
-/*ISMAEL ----TIENDA Y DETALLE DE PRODUCTO*/
+/*ISMAEL ----TIENDA*/
 
 
 .carrusel{
@@ -342,7 +351,8 @@ i.fa-twitter:hover {
 }
 
 .form-shop{
-	background-color: rgba(255,255,255,0.7);
+	background-color: rgba(33,33,33,0.5);
+	color: #FF5722;
 	text-align: center;
 	bottom: 20px;
 	padding: 20px;
@@ -360,29 +370,50 @@ i.fa-twitter:hover {
 
 .form-shop .form-inline .form-control-shop{
 	width: 100%;
+	background-color: #212121;
+	color: #00bcd4;
 	border-radius: 0px;
+	border-color: #212121;
 	height: 40px;
 	font-size: 16px;
 }
 
 .form-shop .btn{
 	width: 100%;
+	background-color: #212121;
+	color: #FF5722;
+	border-color: #212121;
 	margin-top: 31px;
 	border-radius: 0px;
 	text-transform: uppercase;
 	font-weight: 600;
 	height: 40px;
 	font-size: 18px;
+	transition: all .4s ease;
+	-webkit-transition: all .4s ease;
+  	-moz-transition: all .4s ease;
+  	-o-transition: all .4s ease;
+  	-ms-transition: all .4s ease;
+}
+
+.form-shop .btn:hover{
+	background-color: #FF7043;
+	color: #212121;
+	border-color: #FF7043;
 }
 
 
 .section-heading-spacer {
-	border-top: 4px solid #e7e7e7;
+	border: 2px solid #FF5722;
 	width: 500px;
 	margin-bottom: 20px;
 
 }
 
+
+a.shopping-cart{
+	color: #FF5722;
+}
 
 .banner-shop{
 	padding: 30px;
@@ -390,6 +421,7 @@ i.fa-twitter:hover {
 	background-size: cover;
 	color: whitesmoke;
 }
+
 
 
 .p-descripcion{
@@ -400,6 +432,7 @@ i.fa-twitter:hover {
 .precio{
 	font-size: 26px;
 	font-weight: 100;
+	color: #00bcd4;
 }
 
 
@@ -422,6 +455,10 @@ i.fa-twitter:hover {
 
 .right{
 	float: right;
+}
+
+ul>li>a.paginacion{
+	color: #FF5722;
 }
 
 .sprite{
