@@ -1,12 +1,27 @@
 
-body html {
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900,300);
+body {
 	height: 100%;
 	width: 100%;
-}
-
-body, h1, h2, h3, h4, h5, h6 {
 	font-family: 'Lato', sans-serif;
 }
+
+
+/*TITULOS H1 (si quieren que tenga este tamaño y estilo, aplíquenselo a su HTML, luego deben hacer sus ajustes en el media-query)*/
+
+.titulos {
+	font-weight: 900;
+	font-size: 4em;
+
+}
+
+
+/*PALETA DE COLORES*/
+
+/*Naranja intenso #FF5722*/
+/*Naranja pastel #FF7043;*/
+/*Turquesa #00BCD4;*/
+/*Negro 90% #212121;*/
 
 
 
@@ -15,7 +30,8 @@ body, h1, h2, h3, h4, h5, h6 {
 	padding: 18px;
 	height: 80px;
 	font-size: 18px;
-	border-bottom: 4px solid #fff59d;
+	background-color: #212121;
+	border-bottom: 4px solid #FF5722;
 	transition: all .7s ease;
 	-webkit-transition: all .7s ease;
   	-moz-transition: all .7s ease;
@@ -26,20 +42,40 @@ body, h1, h2, h3, h4, h5, h6 {
 .barra {
 	padding: 18px;
 	background-color: rgba(0,0,0,0.5);
-	border-bottom: 4px solid #ee6e73;
+	border-bottom: 4px solid #FF7043;
 	height: 80px;
 	font-size: 18px;
 }
 
-/**Manuel Díaz HomePage**/
+.navbar-brand>img {
+	max-height: 25px;
+	margin-top: -4px;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+	color: #00BCD4;
+}
+
+.navbar-inverse .navbar-nav>li>a.shopping-cart{
+	color: #FF5722;
+}
+
+.navbar-inverse .navbar-nav>li>a.shopping-cart:hover{
+	color: #00BCD4;
+}
+
+
+
+/**-------------------Manuel Díaz HomePage-----------------------------**/
 
 .jumbotron {
 	height: 100vh;
     width: 100%;
-	background: url(../img/header.jpg);
+	background: url(../img/header-bg.jpg);
 	background-attachment: fixed;
 	background-position: cover;
     background-size: cover;
+    margin-bottom: 0px;
 
 }
 
@@ -54,17 +90,217 @@ body, h1, h2, h3, h4, h5, h6 {
 	color: #fff;
 }
 
-.btn-cta {
+.btn-home-manuel {
+	background-color: whitesmoke;
 	padding: 17px;
 	margin-top: 20px;
 	border-radius: 0px;
 	text-transform: uppercase;
+	color: #212121;
+	transition: 0.2s linear;
+	-webkit-transition: 0.2s linear;
+	-moz-transition: 0.2s linear;
+	-o-transition: 0.2s linear;
 
 }
 
-.owl-carousel .owl-item img {
-    width: 50%;
+.btn-home-manuel:hover {
+	background-color: #FF5722;
+	color: whitesmoke;
+	transition: 0.2s linear;
+	-webkit-transition: 0.2s linear;
+	-moz-transition: 0.2s linear;
+	-o-transition: 0.2s linear;
+
 }
+
+.about-bg {
+	width: 100%;
+	background-color: whitesmoke;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+hr.final-about {
+	border: 1px solid #00BCD4;
+	margin-top: 0px;
+}
+
+.colortext>span {
+	color: #FF5722
+}
+
+hr.welcome {
+	border: 2px solid #FF5722;
+	width: 80px;
+	float: left;
+	margin-top: -1px;
+}
+
+.interlineado {
+	line-height: 2em;
+	float: left;
+}
+
+.padding-welcome {
+	margin-top: 40px;
+
+}
+
+.turquesa {
+	color: #00BCD4;
+	font-weight: 900;
+	letter-spacing: 2px;
+}
+
+.pd-top {
+	padding-top: 40px;
+}
+
+.pd-bt {
+	margin-bottom: 80px;
+}
+
+.bg-why {
+	width: 100%;
+	background-color: #212121;
+	margin-top: 80px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.orantext {
+	color: #FF5722;
+	font-weight: 900;
+}
+
+.ft-bg {
+	background-color: #FF7043;
+	padding: 80px;
+}
+
+.pd-elmts {
+	padding: 20px;
+}
+
+.img-footer {
+	max-height: 80px;
+	margin-bottom: 40px;
+	opacity: .5;
+	transition: 0.4s linear;
+	-webkit-transition: 0.4s linear;
+	-moz-transition: 0.4s linear;
+	-o-transition: 0.4s linear;
+}
+
+.img-footer:hover {
+	opacity: 1;
+	transition: 0.4s linear;
+	-webkit-transition: 0.4s linear;
+	-moz-transition: 0.4s linear;
+	-o-transition: 0.4s linear;
+}
+
+.iconos-rrss {
+	font-size: 1.5em;
+	letter-spacing: 3px;
+}
+
+i.fa-facebook {
+	color: #414141;
+	transition: 0.4s linear;
+	-webkit-transition: 0.4s linear;
+	-moz-transition: 0.4s linear;
+	-o-transition: 0.4s linear;
+}
+
+i.fa-facebook:hover {
+	color: #000;
+	transition: 0.4s linear;
+	-webkit-transition: 0.4s linear;
+	-moz-transition: 0.4s linear;
+	-o-transition: 0.4s linear;
+}
+
+i.fa-google-plus {
+	color: #414141;
+	transition: 0.4s linear;
+	-webkit-transition: 0.4s linear;
+	-moz-transition: 0.4s linear;
+	-o-transition: 0.4s linear;
+}
+
+i.fa-google-plus:hover {
+	color: #000;
+	transition: 0.4s linear;
+	-webkit-transition: 0.4s linear;
+	-moz-transition: 0.4s linear;
+	-o-transition: 0.4s linear;
+}
+
+i.fa-twitter{
+	color: #414141;
+	transition: 0.4s linear;
+	-webkit-transition: 0.4s linear;
+	-moz-transition: 0.4s linear;
+	-o-transition: 0.4s linear;
+}
+
+i.fa-twitter:hover {
+	color: #000;
+	transition: 0.4s linear;
+	-webkit-transition: 0.4s linear;
+	-moz-transition: 0.4s linear;
+	-o-transition: 0.4s linear;
+}
+
+
+.footer-creditos {
+    background-color: #212121;
+    padding: 10px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 30px:
+}
+
+.copyright {
+	color: #818181;
+	font-weight: 900;
+	font-size: 0.8em;
+}
+
+
+
+/**-------------------Manuel Díaz Servicios-----------------------------**/
+
+.enconex-serv {
+	background: url(../img/servicios-header.jpg);
+	max-height: 650px;
+	width: 100%;
+	min-width: 100%;
+	background-position: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+}
+
+
+.header-servicios {
+	color: #fff;
+	letter-spacing: 4px;
+	padding: 300px;
+	font-weight: 900;
+}
+
+.panel-default>.panel-heading {
+	background-color: #212121;
+	border-color: none;
+	color: whitesmoke;
+}
+
+
 
 
 
@@ -91,20 +327,12 @@ body, h1, h2, h3, h4, h5, h6 {
     max-width: 30%;
 }
 
-.footer-creditos {
-    background-color: gray;
-    padding: 10px;
-    letter-spacing: 5px;
-    text-align: center;
-    margin-top: 30px:
-}
 
 
 
 
 
-
-/*ISMAEL ----TIENDA Y DETALLE DE PRODUCTO*/
+/*ISMAEL ----TIENDA*/
 
 
 .carrusel{
@@ -113,15 +341,18 @@ body, h1, h2, h3, h4, h5, h6 {
 
 .img-carrusel{
 	width: 100%;
+	
 }
 
 .form-shop label{
 	display: block;
 	text-align: left;
+	font-size: 18px;
 }
 
 .form-shop{
-	background-color: rgba(255,255,255,0.7);
+	background-color: rgba(33,33,33,0.5);
+	color: #FF5722;
 	text-align: center;
 	bottom: 20px;
 	padding: 20px;
@@ -132,34 +363,65 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 .form {
-	font-size: 18px;
-	width: 18%;
+	width: 14%;
 	margin-right: 2%;
 }
 
 
 .form-shop .form-inline .form-control-shop{
 	width: 100%;
+	background-color: #212121;
+	color: #00bcd4;
+	border-radius: 0px;
+	border-color: #212121;
+	height: 40px;
+	font-size: 16px;
 }
 
+.form-shop .btn{
+	width: 100%;
+	background-color: #212121;
+	color: #FF5722;
+	border-color: #212121;
+	margin-top: 31px;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: 600;
+	height: 40px;
+	font-size: 18px;
+	transition: all .4s ease;
+	-webkit-transition: all .4s ease;
+  	-moz-transition: all .4s ease;
+  	-o-transition: all .4s ease;
+  	-ms-transition: all .4s ease;
+}
 
+.form-shop .btn:hover{
+	background-color: #FF7043;
+	color: #212121;
+	border-color: #FF7043;
+}
 
 
 .section-heading-spacer {
-	border-top: 4px solid #e7e7e7;
-	width: 30px;
-	float: left;
+	border: 2px solid #FF5722;
+	width: 500px;
+	margin-bottom: 20px;
+
 }
 
-.btn-form-shop{
-	border-radius: 0px;
-	text-transform: uppercase;
+
+a.shopping-cart{
+	color: #FF5722;
 }
 
 .banner-shop{
 	padding: 30px;
-	background-color: rgba(0,0,0,0.25);
+	background: url(../img/banner-shop.jpg);
+	background-size: cover;
+	color: whitesmoke;
 }
+
 
 
 .p-descripcion{
@@ -170,6 +432,7 @@ body, h1, h2, h3, h4, h5, h6 {
 .precio{
 	font-size: 26px;
 	font-weight: 100;
+	color: #00bcd4;
 }
 
 
@@ -194,9 +457,193 @@ body, h1, h2, h3, h4, h5, h6 {
 	float: right;
 }
 
+ul>li>a.paginacion{
+	color: #FF5722;
+}
+
+.sprite{
+	margin-top: 70px;
+	width: 80px;
+	height: 48px;
+	display: block;
+	background-image: url(../img/sprite-metodosdepago.png);
+}
+
+.sprite.visa{background-position: -80px -0px;}
+.sprite.master{background-position: -160px -0px;}
+.sprite.american{background-position: -320px -0px;}
+.sprite.paypal{background-position: -0px -0px;}
+
+.input-banner{
+	width: 50%;
+	border-radius: 0px;
+}
+.btn-form-shop{
+	margin-top: 10px;
+	border-radius: 0px;
+}
+
+
+.button {
+	min-width: 150px;
+	max-width: 250px;
+	color: whitesmoke;
+	font-size: 19px;
+	font-weight: 700;
+	margin: 1em;
+	padding: 1em 2em;
+	border: none;
+	background: none;
+	vertical-align: middle;
+	position: relative;
+	z-index: 1;
+	-webkit-backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+}
+.button:focus {
+	outline: none;
+}
+
+
+.button--itzel {
+	border: none;
+	padding: 0px;
+	overflow: hidden;
+	width: 255px;
+}
+.button--itzel::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 2px solid;
+	border-radius: inherit;
+	-webkit-clip-path: polygon(0% 0%, 0% 100%, 35% 100%, 35% 60%, 65% 60%, 65% 100%, 100% 100%, 100% 0%);
+	clip-path: url(../index.html#clipBox);
+	-webkit-transform: translate3d(0, 100%, 0) translate3d(0, -2px, 0);
+	transform: translate3d(0, 100%, 0) translate3d(0, -2px, 0);
+	-webkit-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+}
+
+
+.button--itzel.button--border-thick::before {
+	border: 3px solid;
+	-webkit-transform: translate3d(0, 100%, 0) translate3d(0, -3px, 0);
+	transform: translate3d(0, 100%, 0) translate3d(0, -3px, 0);
+}
+
+.button--itzel::before,
+.button--itzel .button__icon {
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+	-webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+	transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+}
+.button--itzel .button__icon {
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	padding: 20px;
+	font-size: 20px;
+	-webkit-transform: translate3d(-50%, 0, 0);
+	transform: translate3d(-50%, 0, 0);
+}
+.button--itzel > span {
+	display: block;
+	padding: 20px;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+	-webkit-transition-delay: 0.3s;
+	transition-delay: 0.3s;
+}
+.button--itzel:hover::before {
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+.button--itzel:hover .button__icon {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+	-webkit-transform: translate3d(-50%, -100%, 0);
+	transform: translate3d(-50%, -100%, 0);
+}
+.button--itzel:hover > span {
+	opacity: 0;
+	-webkit-transform: translate3d(0, -50%, 0);
+	transform: translate3d(0, -50%, 0);
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+
+/*DETALLE DE PRODUCTO*/
+
+
+
+
+
+
+
+
+
 
 
 /*MEDIAquerys*/
+
+/*Tienda*/
+
+@media (max-width: 767px) {
+
+	.carrusel{
+		margin-top: 80px;
+	}
+	.section-heading-spacer{
+		width: 300px;
+	}
+
+	.form-shop label{
+		font-size: 16px;
+	}
+
+	.form-shop{
+		background-color: #e7e7e7;
+		bottom: 0px;
+		padding: 20px;
+		margin-bottom: 0;
+		position: relative;
+	}
+
+	.form {
+		width: 100%;
+		margin-right: 0;
+	}
+
+
+	.form-shop .form-inline .form-control-shop{
+		width: 100%;
+		font-size: 14px;
+	}
+
+	.form-shop .btn{
+		width: 50%;
+		margin-top: 15px;
+		font-size: 14px;
+	}
+
+	.sprite{
+		display: none;
+		
+	}
+
+
+}
+
+
+
+
+
 
 
 /*blog*/

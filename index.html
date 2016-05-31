@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<!-- OWL -->
 	<link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
 
 </head>
 <body>
@@ -30,19 +31,23 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">EnCONEX</a>
+                <a class="navbar-brand" href="#">
+                <img src="img/enconex-logo.png" alt=""></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#">Servicios</a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="#">Blog</a>
+                        <a href="servicios.html">Servicios</a>
                     </li>
                     <li>
-                        <a href="#">Tienda</a>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="tienda.html">Tienda</a>
                     </li>
                     <li>
                         <a href="#">Contacto</a>
@@ -59,28 +64,32 @@
 
     <div class="jumbotron text-center">
   		<h1>Bienvenido a EnCONEX!</h1>
- 		<p>Una tienda especial y moderna para ti.</p>
-  		<p><a class="btn btn-default" href="#" role="button">Conócenos</a></p>
+ 		<p class="text-muted">Una tienda especial y moderna para ti.</p>
+  		<p><a class="btn btn-home-manuel page-scroll" href="#about" role="button">Conócenos</a></p>
 	</div>
 
 
 <!-- Acerca de -->
-
+<div id="about"></div>
+<div class="about-bg">
 <section class="container">
     <div class="row">
         <div class="col-md-12">
-            <h1 class="titulos text-center">Bienvenidos a EnCONEX!</h1>
-            <h3 class="text-center">La tienda en línea con los productos de tecnología más novedosos.</h3>
+            <h1 class="titulos text-center colortext">Bienvenidos a En<span>CONEX!</span></h1>
+            <h3 class="text-center text-muted">La tienda en línea con los productos de tecnología más novedosos.</h3>
         </div>
-        <div class="col-md-6">
-        <img src="http://www.placehold.it/600x300" class="img-responsive center-block" alt="">
+        <div class="col-md-6 padding-welcome">
+        <img src="img/welcome-enconex.jpg" class="img-responsive center-block img-rounded" alt="">
         </div>
-        <div class="col-md-6">
-            <h3>EnCONEX! te brinda soluciones</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse doloremque nesciunt molestias nihil in laudantium impedit aliquid laborum praesentium tenetur earum, dolor fugit reprehenderit, excepturi adipisci maiores nobis error atque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est molestiae laboriosam, temporibus, nobis perspiciatis officia quas eveniet iusto tempora pariatur commodi non accusantium odio, qui numquam minima ad, quos at?</p>
+        <div class="col-md-6 padding-welcome">
+            <h3 class="turquesa">EnCONEX! te brinda soluciones</h3>
+            <hr class="welcome">
+            <p class="text-muted interlineado">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse doloremque nesciunt molestias nihil in laudantium impedit aliquid laborum praesentium tenetur earum, dolor fugit reprehenderit, excepturi adipisci maiores nobis error atque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est molestiae laboriosam, temporibus, nobis perspiciatis officia quas eveniet iusto tempora pariatur commodi non accusantium odio, qui numquam minima ad, quos at?</p>
         </div>
     </div>
+    </div>
 </section>
+<hr class="final-about">
 
 
 <!-- Productos del mes (conectados a la tienda) -->
@@ -89,36 +98,35 @@
 <section class="container">
     <div class="row">
         <div class="col-lg-12">
-            <h1 class="titulos text-center">Productos del mes</h1>
-            <hr class="line-body">
-            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste ipsam nobis aliquam, sapiente, tempora repellendus sit. Quas officiis neque, fuga saepe expedita sunt possimus! Temporibus repudiandae aut, error sapiente ullam.</p>
+            <h1 class="titulos text-center pd-top">Productos del mes</h1>
+            <p class="text-center text-muted pd-bt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste ipsam nobis aliquam, sapiente, tempora repellendus sit. Quas officiis neque, fuga saepe expedita sunt possimus! Temporibus repudiandae aut, error sapiente ullam.</p>
         </div>
     </div>
     <!-- owl -->
     <div class="owl-carousel">
     <div class="item">
-        <img src="http://www.placehold.it/600x600" class="img-circle" alt="">
-        <h3 class="text-center">iPhone 6S</h3>
+        <a href="tienda.html"><img src="img/home-iphone-se.jpg" class="img-thumbnail" alt=""></a>
+        <h3 class="text-center">iPhone SE</h3>
     </div>
     <div class="item">
-        <img src="http://www.placehold.it/600x600" class="img-circle" alt="">
+         <a href="tienda.html"><img src="img/home-laptop.jpg" class="img-thumbnail" alt=""></a>
         <h3 class="text-center">Laptop Asus</h3>
     </div>
     <div class="item">
-        <img src="http://www.placehold.it/600x600" class="img-circle" alt="">
-        <h3 class="text-center">Audífonos Sennheiser</h3>
+         <a href="tienda.html"><img src="img/home-ledtv.jpg" class="img-thumbnail" alt=""></a>
+        <h3 class="text-center">Smart TV Samsung</h3>
     </div>
     <div class="item">
-        <img src="http://www.placehold.it/600x600" class="img-circle" alt="">
-        <h3 class="text-center">Galaxy S7 Edge</h3>
+         <a href="tienda.html"><img src="img/home-drone.jpg" class="img-thumbnail" alt=""></a>
+        <h3 class="text-center">Drone Quadcopter</h3>
     </div>
     <div class="item">
-        <img src="http://www.placehold.it/600x600" class="img-circle" alt="">
-        <h3 class="text-center">Combo Computador i5</h3>
+         <a href="tienda.html"><img src="img/home-ipad.jpeg" class="img-thumbnail" alt=""></a>
+        <h3 class="text-center">iPad Mini 3</h3>
     </div>
     <div class="item">
-        <img src="http://www.placehold.it/600x600" class="img-circle" alt="">
-        <h3 class="text-center">Televisor Samsung HD</h3>
+         <a href="tienda.html"><img src="img/home-huawei.jpg" class="img-thumbnail" alt=""></a>
+        <h3 class="text-center">Huawei P8</h3>
     </div>
     </div>
 </section>
@@ -126,15 +134,18 @@
 
 <!--Por que EnCONEX -->
 
+<div class="bg-why">
 <section class="container">
     <div class="row">
         <div class="col-md-6">
-            <h3>¿Por qué EnCONEX?</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse doloremque nesciunt molestias nihil in laudantium impedit aliquid laborum praesentium tenetur earum, dolor fugit reprehenderit, excepturi adipisci maiores nobis error atque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est molestiae laboriosam, temporibus, nobis perspiciatis officia quas eveniet iusto tempora pariatur commodi non accusantium odio, qui numquam minima ad, quos at?</p>
+            <h3 class="turquesa">¿Por qué EnCONEX?</h3>
+            <hr class="welcome">
+            <p class="text-muted interlineado">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse doloremque nesciunt molestias nihil in laudantium impedit aliquid laborum praesentium tenetur earum, dolor fugit reprehenderit, excepturi adipisci maiores nobis error atque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est molestiae laboriosam, temporibus, nobis perspiciatis officia quas eveniet iusto tempora pariatur commodi non accusantium odio, qui numquam minima ad, quos at?</p>
         </div>
         <div class="col-md-6">
-        <img src="http://www.placehold.it/600x300" class="img-responsive center-block" alt="">
+        <img src="img/why-enconex.jpg" class="img-responsive center-block img-rounded" alt="">
         </div>
+    </div>
     </div>
 </section>
 
@@ -142,38 +153,37 @@
 <section class="container">
     <div class="row">
         <div class="col-md-12">
-            <h1 class="titulos text-center">Testimonios de clientes</h1>
-            <hr class="line-body">
+            <h1 class="titulos colortext text-center pd-top pd-bt">Testimonios de <span>clientes</span></h1>
             <!-- owl carousel -->
-             <div class="clients">
+             <div class="clients pd-bt">
     <div class="item mx-height">
-       <img src="http://www.placehold.it/600x600" class="img-circle" alt="">
-        <h3 class="text-center">Lorem ipsum.</h3>
+       <img src="img/testi1.jpg" class="img-circle" alt="">
+        <h3 class="text-center">Vanessa Díaz</h3>
         <p class="text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, alias. </p>
     </div>
     <div class="item">
-        <img src="http://www.placehold.it/600x600" class="img-circle" alt="">
-        <h3 class="text-center">Lorem ipsum.</h3>
+        <img src="img/test5.jpg" class="img-circle" alt="">
+        <h3 class="text-center">Alberto Pérez</h3>
         <p class="text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, alias. </p>
     </div>
     <div class="item">
-        <img src="http://www.placehold.it/600x600" class="img-circle" alt="">
-        <h3 class="text-center">Lorem ipsum.</h3>
+        <img src="img/test4.jpg" class="img-circle" alt="">
+        <h3 class="text-center">Alejandra Silva</h3>
         <p class="text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, alias. </p>
     </div>
     <div class="item">
-        <img src="http://www.placehold.it/600x600" class="img-circle" alt="">
-        <h3 class="text-center">Lorem ipsum.</h3>
+        <img src="img/test2.jpg" class="img-circle" alt="">
+        <h3 class="text-center">Sarah Velásquez</h3>
         <p class="text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, alias. </p>
     </div>
     <div class="item">
-        <img src="http://www.placehold.it/600x600" class="img-circle" alt="">
-        <h3 class="text-center">Lorem ipsum.</h3>
+        <img src="img/test3.jpg" class="img-circle" alt="">
+        <h3 class="text-center">Manuel Díaz</h3>
         <p class="text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, alias. </p>
     </div>
     <div class="item">
-        <img src="http://www.placehold.it/600x600" class="img-circle" alt="">
-        <h3 class="text-center">Lorem ipsum.</h3>
+        <img src="img/test6.jpg" class="img-circle" alt="">
+        <h3 class="text-center">Daniel Martínez</h3>
         <p class="text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, alias. </p>
     </div>
     </div>
@@ -183,26 +193,42 @@
 
 
 
-    <!-- Footeer -->
+    <!-- Footer -->
 
 <footer>
-<div class="container-fluid">
+<div class="container-fluid ft-bg">
     <article class="col-lg-12">
-        <img src="http://www.placehold.it/200x200" class="img-responsive center-block img-circle" alt="">
+        <img src="img/enconex-logo.png" class="img-responsive center-block img-footer" alt="">
     </article>
-    <article class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center">
+    <div class="pd-elmts">
+    <article class="col-sm-4 text-center">
         <h4>Sobre EnCONEX</h4>
-        <hr class="line-ft">
-        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, laboriosam!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex provident fugiat neque voluptates nulla deserunt nihil.</p>
     </article>
-    <article class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center">
+    <article class="col-sm-4 text-center">
+        <h4>EnCONEX social</h4>
+        <div class="iconos-rrss">
+            <ul class="list-inline">
+                <li>
+                    <a href="http://www.facebook.com"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                     <a href="http://www.facebook.com"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                     <a href="http://www.facebook.com"><i class="fa fa-google-plus"></i></a>
+                </li>
+            </ul>
+        </div>
+    </article>
+     <article class="col-sm-4 text-center">
         <h4>Contacto rápido</h4>
-        <hr class="line-ft">
-        <p class="text-muted">info@enconex.com</p>
+        <p>info@enconex.com</p>
     </article>
     </div>
+    </div>
     <div class="footer-creditos">
-        <h6 class="text-center">Desarrollado por Team EnCONEX!</h6> 
+        <h6 class="text-center copyright">Desarrollado por Team EnCONEX!</h6> 
 </div>
 </footer>
 
@@ -211,23 +237,12 @@
 
 <!-- Jquery -->
 	<script src="js/jquery-2.2.3.js"></script>
-<!-- Font Awesome -->
-	<script src="https://use.fontawesome.com/3d63b6a2ea.js"></script>
 <!-- Bootstrap -->
 	<script src="js/bootstrap.min.js"></script>
 <!-- Owl -->
 	<script src="js/owl.carousel.min.js"></script>
-
-
-
-
-<!-- Scripts JS -->
-
-
-<script src="js/smoothscrolling.jquery.js"></script>
-<script src="js/main.js"></script>
-
-
+    <script src="js/smoothscrolling.jquery.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
 </html>

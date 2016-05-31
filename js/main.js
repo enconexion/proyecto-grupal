@@ -1,13 +1,3 @@
-$(window).scroll(function() {
-    if($(this).scrollTop() > 350)  /*height in pixels when the navbar becomes non opaque*/ 
-    {
-        $('.navbar').removeClass('barra');
-    } else {
-        $('.navbar').addClass('barra');
-    }
-});
-
-
 /*NAVBAR, NAVEGACION, TOOLTIP*/
 
 $(function () {
@@ -46,6 +36,15 @@ $(function() {
     });
 });
 
+
+$(window).scroll(function() {
+    if($(this).scrollTop() < 400)  /*height in pixels when the navbar becomes non opaque*/ 
+    {
+        $('.navbar').addClass('barra');
+    } else {
+        $('.navbar').removeClass('barra');
+    }
+});
 
 
 
